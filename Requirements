@@ -1,5 +1,26 @@
+Functional Overview:
+
 1. The system will be an Android app.
-2. The systme will allow a student to schedule study times on their calendar
-3. The system will have an alarm in place to remind the students of approaching appointments. 
-4. The system will allow a student to enter an assignment, its due date and required number of hours. With that information, the systme will schedule work times for that assignment on the calendar. 
-5. The system will require the student to check in and out of any study or work sessions. 
+
+2. The system will allow a student to schedule study times on a local database calendar.
+
+3. The system will have an alarm in place to remind the students of approaching appointments based on local db calendar. 
+
+4a. The user will be able to assign study windows to the local db calendar (i.e. 5pm - 9pm MWF, 10am-2pm SSu)
+4b. The system will allow a student to enter an assignment, its due date and required number of hours. 
+4c. Once an assignment is entered, the system will schedule available work times for that assignment on the calendar.
+4d. The system will adjust the schedule to fit within the study windows and avoid other scheduled events.
+4e. The system will not schedule study times in slots too small for use (i.e. 15 min or less)
+
+5a. The system will provide a suggested period of time to completion based on project type (this will require research)
+5b. Students will be able to assign specific estimated times to projects manually.
+
+6a. The system will require the student to check in and out of any study or work sessions. 
+6b. If a time is missed the system will recalculate and reschedule based on remaining time to completion.
+
+Wish List:
+
+1. The system will sync with their gmail calendar.
+2. Reports will be generated that show success rates of scheduled times vs missed or cancelled.
+3. Sync with other instances of the application across multiple devices for larger multiperson projects
+
